@@ -1,0 +1,95 @@
+.contenedor-medio {
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	height: 150px;
+
+}
+.titulo {
+	box-sizing: border-box;
+	padding-top: 10%;
+	margin-top: 0;
+	margin-left: 400px;
+	color: white;
+	font-family: 'SanFranciscoDisplayLight',Arial,Tahoma,Verdana;
+}
+.contenedor-derecho {
+
+	width: 70%;
+	margin-left: 30%;	
+}
+.contenedor-medio,.contenedor-superior, .contenedor-bajo 
+{
+
+	margin-top:10%;
+	margin-right: 10%;
+	border: #2e7d32 3px solid;
+}
+.titulo-actividad {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'SanFranciscoDisplayLight',Arial,Tahoma,Verdana;
+}
+
+input::-webkit-input-placeholder {
+  color: #2e7d32;
+}
+input:-moz-placeholder {
+  color: #2e7d32;
+}
+input:-ms-input-placeholder {
+  color: #2e7d32;
+}
+input[placeholder] {
+  color: #2e7d32;
+}
+.formulario {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+#textArea {
+	height: 300px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#textArea-actividad{
+	height: 150px;
+}
+.enviar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+	height: 70px;
+}
+
+.formulario-derecho {
+	display: flex;
+	flex-direction: column;
+}
+
+#input-git,#input-proyecto{
+
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.formulario-derecho {
+	width: 50%;
+
+}
+
+.botones{
+	display: flex;
+	justify-content: space-around;
+	margin-top:2%; 
+	margin-bottom:2%; 
+}
+

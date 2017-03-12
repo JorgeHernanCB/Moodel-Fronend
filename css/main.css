@@ -1,0 +1,87 @@
+header{
+	height: 300px;
+
+}
+.principal {
+	position: relative;
+	height: 100%;
+}
+
+
+form {
+	box-sizing: border-box;
+	padding-top: 50px;
+}
+
+    header, main, footer {
+      padding-left: 300px;
+    }
+.contenedor-tarjetas {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: -65px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+form {
+	display: flex;
+	justify-content: space-around;
+}
+.contenedor-tarjetas>div {
+	display: flex;
+	flex-direction: column;
+}
+
+.contenedor-medio {
+	margin: 0 auto;
+}
+
+h5 {
+	font-family: 'SanFranciscoDisplayLight',Arial,Tahoma,Verdana;
+	color: #555;
+	}
+.texto-tarjeta {
+	font-family: 'SanFranciscoDisplayLight',Arial,Tahoma,Verdana;
+	color: #555;
+	font-size: 12pt;
+	line-height: 24px;
+}
+
+.contenedor-superior {
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+.logo {
+	position: absolute;
+}
+
+#tarjeta1, #tarjeta2 {
+	margin-bottom: 20px;
+}
+.login {
+	margin-left: 2.5%;
+	color: white;
+}
+
+.a-nav {
+	color: white;
+}
+
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+
+.recursos{
+ 	text-decoration: none;
+ 	list-style-image: none;
+ 	color: #524;
+ }
+
